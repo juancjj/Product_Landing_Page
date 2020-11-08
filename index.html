@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script> 
     <title>GYM-JK</title>
 </head>
 
@@ -13,19 +14,19 @@
         <header id="header">
             <!--imagen logo-->
             <div class="logo">
-                <img src="./img/logo.jpg" width="100" alt="" id="header-img">
+                <img src="./img/logo.jpg" alt="una mano empuñando mancuerna" width="100" id="header-img">
             </div>
             <!--navegador-->
             <nav class="nav-bar">
                 <ul>
-                    <li><a class="nav-link" href="./index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="#">Inicio</a></li>
                     <li><a class="nav-link" href="#producto">Producto</a></li>
-                    <li><a class="nav-link" href="#">Contactanos</a></li>
+                    <li><a class="nav-link" href="#footer">Contactanos</a></li>
                 </ul>
             </nav>
         </header>
         <main class="main">
-            <section class="email">
+            <section class="text-section">
                 <h2>"Piensa que puedes y podrás, pero espera el sufrimiento, perseverancia y disciplina."</h2>
                 <p>Para más información</p>
                 <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -33,20 +34,27 @@
                     <input type="submit" id="submit" class="btn">
                 </form>
             </section>
-            <section class="email" id="producto">
+            <section class="text-section" id="producto">
                 <h1>Theraband: banda elástica para ejercicios de resistencia</h1>
                 <p>Las Theraband están elaboradas a base de látex. Son buenas tanto para hacer fisioterapia, como para
                     realizar ejercicios de fuerza. Utilizarlas, es muy sencillo. Lo primero que hay que conocer, es que
                     tienen una clasificación por color, ayudando a identificar el nivel de resistencia de cada banda.
                 </p>
-                <div class="container-video">
+                <div id="video">
                     <iframe width="660" height="315" src="https://www.youtube.com/embed/LxXXy2bSEsg" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <p>Todos los derechos reservados Juank</p>
+            <div class="container-redes">
+                <a class="redes" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a class="redes" href="https://github.com/"><i class="fab fa-github"></i></a>
+                <a class="redes" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </footer>
     </div>
 </body>
 

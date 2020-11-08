@@ -12,13 +12,17 @@ body{
 header{
     max-width: 100%;
     margin: 0 50px;
+    background-color: white;
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#header{
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     right: 0;
 }
 
@@ -42,16 +46,16 @@ li{
 }
 
 .main{
-    margin-top: 100px;
+    margin-top: 150px;
     align-items: center;
 }
 
-.email{
+.text-section{
     text-align: center;
-    padding: 50px 30px;
+    padding: 100px 30px;
 }
 
-.email p{
+.text-section p{
     font-size: 18px;
     margin-top: 30px;
 }
@@ -80,6 +84,24 @@ li{
     font-weight: bold;
 }
 
-.container-video{
-    padding: 30px;
+#video{
+    padding: 50px;
+}
+
+.footer{
+    max-width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.footer p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.redes{
+    font-size: 20px;
+    margin-right: 20px;
+
 }
